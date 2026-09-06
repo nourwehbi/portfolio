@@ -5,16 +5,53 @@
  * links. Everything is read from the JSON files in `src/content/`, so the site
  * can be updated by editing JSON alone. See CONTENT_GUIDE.md.
  */
-import site from '../content/site.json'
-import about from '../content/about.json'
-import cv from '../content/cv.json'
-import portfolio from '../content/portfolio.json'
-import storiesFile from '../content/stories.json'
-import contact from '../content/contact.json'
+import siteJson from '../content/site.json'
+import aboutJson from '../content/about.json'
+import cvJson from '../content/cv.json'
+import portfolioJson from '../content/portfolio.json'
+import storiesJson from '../content/stories.json'
+import contactJson from '../content/contact.json'
 
-export { site, about, cv, portfolio, contact }
+/**
+ * The path the site is served from — "/" locally, "/portfolio/" on GitHub
+ * Pages. Vite sets it from `base` in vite.config.js.
+ */
+const BASE = import.meta.env.BASE_URL.replace(/\/$/, '')
 
-export const stories = storiesFile.stories ?? []
+/**
+ * The JSON files write file paths from the site root ("/assets/…", "/docs/…")
+ * because that is the simplest thing to type and keeps them portable. When the
+ * site is served from a subfolder those need the prefix, so every loaded file
+ * is walked once here and only those two prefixes are rewritten.
+ *
+ * Route paths ("/about"), external URLs and mailto:/tel: links are left alone —
+ * the router applies its own basename to those.
+ */
+const isFilePath = (value) =>
+  typeof value === 'string' &&
+  (value.startsWith('/assets/') || value.startsWith('/docs/'))
+
+const withBase = (value) => {
+  if (isFilePath(value)) return BASE + value
+  if (Array.isArray(value)) return value.map(withBase)
+  if (value && typeof value === 'object') {
+    return Object.fromEntries(
+      Object.entries(value).map(([k, v]) => [k, withBase(v)]),
+    )
+  }
+  return value
+}
+
+export const site = withBase(siteJson)
+export const about = withBase(aboutJson)
+export const cv = withBase(cvJson)
+export const portfolio = withBase(portfolioJson)
+export const contact = withBase(contactJson)
+
+export const stories = withBase(storiesJson).stories ?? []
+
+/** Prefixes a file path that did not come from the content JSON. */
+export const asset = (path) => (isFilePath(path) ? BASE + path : path)
 
 /** All portfolio sections, in the order they appear in portfolio.json. */
 export const sections = portfolio.sections ?? []
@@ -72,6 +109,6 @@ export const youtubeThumb = (id) => `https://i.ytimg.com/vi/${id}/hqdefault.jpg`
  * Callers fall back to the full image if the thumbnail has not been generated.
  */
 export const thumbFor = (src) =>
-  src?.startsWith('/assets/')
+  src?.includes('/assets/')
     ? src.replace(/\/([^/]+)$/, '/thumbs/$1')
     : src
