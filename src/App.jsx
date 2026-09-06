@@ -1,13 +1,13 @@
-import { Route, Routes } from 'react-router-dom'
-import Layout from './components/Layout'
-import Home from './pages/Home'
-import About from './pages/About'
-import Portfolio from './pages/Portfolio'
-import PortfolioSection from './pages/PortfolioSection'
-import Story from './pages/Story'
-import CV from './pages/CV'
-import Contact from './pages/Contact'
-import NotFound from './pages/NotFound'
+import { Route, Routes } from "react-router-dom";
+import Layout from "./components/Layout";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Portfolio from "./pages/Portfolio";
+import PortfolioSection from "./pages/PortfolioSection";
+import Story from "./pages/Story";
+import CV from "./pages/CV";
+import Contact from "./pages/Contact";
+import NotFound from "./pages/NotFound";
 
 /**
  * Portfolio subsections and story pages are resolved from portfolio.json and
@@ -27,5 +27,5 @@ export default function App() {
         <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
-  )
+  );
 }
