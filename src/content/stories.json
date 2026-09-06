@@ -1,0 +1,413 @@
+{
+  "stories": [
+    {
+      "id": "souk-ardi",
+      "section": "multimedia",
+      "kicker": "Multimedia story",
+      "title": "Souk Ardi: Where the Spirit of the Land Refuses to Fade",
+      "deck": "After two years of silence, My Land Market returns to Beirut's southern suburb — and the farmers and artisans behind its stalls turn olives, embroidery and bread into a statement about survival.",
+      "byline": "Nour Wehbi",
+      "date": "2025-11-05",
+      "displayDate": "5 November 2025",
+      "location": "Beirut, Lebanon",
+      "readingTime": "3 min read",
+      "lang": "en",
+      "dir": "ltr",
+      "cover": "/assets/stories/souk-ardi/01.jpg",
+      "tags": ["Reporting", "Economy", "Community"],
+      "featured": true,
+      "sources": [
+        { "name": "Hassan Majed", "role": "RTV student practising at Souk Ardi", "type": "Interview" },
+        { "name": "Dr. Mohammad Haidar", "role": "Minister of Labor", "type": "Opening ceremony remarks" }
+      ],
+      "blocks": [
+        {
+          "type": "gallery",
+          "images": [
+            { "src": "/assets/stories/souk-ardi/01.jpg", "alt": "Stalls at Souk Ardi in Beirut" },
+            { "src": "/assets/stories/souk-ardi/02.jpg", "alt": "Handmade products on display at Souk Ardi" },
+            { "src": "/assets/stories/souk-ardi/03.jpg", "alt": "Visitors browsing the market" },
+            { "src": "/assets/stories/souk-ardi/04.jpg", "alt": "Local produce brought from the South and the Beqaa" },
+            { "src": "/assets/stories/souk-ardi/05.jpg", "alt": "An artisan at her stall" }
+          ],
+          "credit": "Photographs: Nour Wehbi"
+        },
+        {
+          "type": "paragraph",
+          "lead": true,
+          "text": "In the heart of Beirut's southern suburb, the scent of thyme and olive oil drifts through the air with the rhythm of resilience. [“Souk Ardi”](https://www.instagram.com/souk_ardi/?hl=en) — meaning My Land Market — has returned after two years of silence, filling the Sayyid al-Shuhada Complex with the heartbeat of a community that refuses to give up."
+        },
+        {
+          "type": "paragraph",
+          "text": "For many of the artisans and farmers setting up their stalls, this is more than a market. It is a chance to show that resilience can take the shape of bread, embroidery and soil-stained hands."
+        },
+        { "type": "heading", "text": "“Every product here carries a story”" },
+        {
+          "type": "paragraph",
+          "text": "“Every product here carries a story,” said Hassan Majed, an RTV student currently practising at Souk Ardi. “Some of these women are from villages that were bombed. They lost their land, their homes, even their families. But they're here, selling what they made with their own hands. That's what resistance looks like.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "Supported by the Jihad Al-Binaa Development Association, Souk Ardi is built on a simple but powerful idea: that economic self-reliance is a form of resistance. Farmers from the South and the Beqaa brought their goods to Beirut, transforming the venue into a celebration of craftsmanship, culture and survival."
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "title": "What the stalls carried",
+          "items": [
+            "Olives and olive oil pressed in the South",
+            "Wild thyme and dried herbs from the Beqaa",
+            "Embroidery and handmade crafts made by women displaced from bombed villages",
+            "Home-baked bread and preserves sold jar by jar"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Visitors stopped to taste, to listen, to remember where it all came from: the land."
+        },
+        { "type": "heading", "text": "“Productive work is resistance”" },
+        {
+          "type": "paragraph",
+          "text": "As Minister of Labor Dr. Mohammad Haidar put it during the opening ceremony, dignified work is not just an economic act — it is a national one."
+        },
+        {
+          "type": "quote",
+          "text": "Productive work is resistance. Every jar, every basket, every harvest is a stand against the economic war waged on our country.",
+          "attribution": "Dr. Mohammad Haidar, Minister of Labor"
+        },
+        {
+          "type": "image",
+          "src": "/assets/stories/souk-ardi/03.jpg",
+          "alt": "Visitors walking between the stalls at Souk Ardi",
+          "caption": "Farmers from the South and the Beqaa brought olives, herbs and handmade goods to Beirut.",
+          "credit": "Nour Wehbi"
+        },
+        {
+          "type": "paragraph",
+          "text": "For Majed, walking among the vendors was a lesson in strength."
+        },
+        {
+          "type": "paragraph",
+          "text": "“You can feel it,” he said quietly. “It's not just a market — it's a message. These people are rebuilding, one jar, one craft, one story at a time.”"
+        },
+        { "type": "heading", "text": "A bridge between loss and renewal" },
+        {
+          "type": "paragraph",
+          "text": "Souk Ardi is more than an exhibition of local goods. It is a testament to the Lebanese spirit — a bridge between loss and renewal, between the past that shaped these families and the future they continue to build with their hands."
+        },
+        {
+          "type": "paragraph",
+          "text": "The market's daily schedule differs from one day to the next, with different activities, speakers and angles. The most memorable moments of that day's programme were “Salam Ya Mahdi” and [“we are recovering”](https://www.al-akhbar.com/lebanon/859682/%D9%84%D9%82%D8%AF-%D8%AA%D8%B9%D8%A7%D9%81%D9%8A%D9%86%D8%A7-%D8%AD%D9%82%D8%A7) with The Wounded Foundation."
+        },
+        {
+          "type": "image",
+          "src": "/assets/stories/souk-ardi/05.jpg",
+          "alt": "A stall of handmade goods at Souk Ardi",
+          "caption": "“Every jar, every basket, every harvest is a stand,” the Minister of Labor told the opening ceremony.",
+          "credit": "Nour Wehbi"
+        },
+        {
+          "type": "paragraph",
+          "text": "The market whispers a simple truth: the land lives on in its people — and they, in it."
+        }
+      ]
+    },
+    {
+      "id": "riwayat-alsamaa",
+      "section": "multimedia",
+      "kicker": "Photo essay",
+      "title": "Cultural Exhibition Opens at Imam Khomeini Complex in Beirut",
+      "deck": "“Riwayat Alsamaa” — Stories from Heaven — gathers more than thirty artistic projects about Lebanon's martyrs, from copper calligraphy to a burned Qur'an, next to the shrine of Sayyed Hassan Nasrallah.",
+      "byline": "Nour Wehbi",
+      "date": "2025-11-19",
+      "displayDate": "19 November 2025",
+      "location": "Beirut, Lebanon",
+      "readingTime": "4 min read",
+      "lang": "en",
+      "dir": "ltr",
+      "cover": "/assets/stories/riwayat-alsamaa/01.jpg",
+      "tags": ["Photo essay", "Culture", "Photography"],
+      "featured": true,
+      "sources": [
+        { "name": "Sheikh Rouhallah", "role": "Exhibition director", "type": "Interview" },
+        { "name": "Mohammad Shokor", "role": "Member, Ahyaa Association", "type": "Interview" },
+        { "name": "Fatima Alzahraa Zein", "role": "Owner, Horr Studio", "type": "Interview" }
+      ],
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/assets/stories/riwayat-alsamaa/01.jpg",
+          "alt": "A visitor examines a handcrafted keychain at the exhibition",
+          "caption": "A visitor examines a handcrafted keychain, part of a display of embroidered art pieces and locally made crafts.",
+          "credit": "Nour Wehbi"
+        },
+        {
+          "type": "paragraph",
+          "lead": true,
+          "text": "The cultural and artistic exhibition “Riwayat Alsamaa” (Stories from Heaven) was inaugurated on 14 November by Sayyid Ali Tabatabai. Held at the Imam Khomeini Complex for the Iranian Community in Beirut to mark Martyrs Day, the exhibition included the participation of the Ahyaa Association, which publishes the works of the martyred."
+        },
+        {
+          "type": "paragraph",
+          "text": "It also featured publishing houses such as Dar Al-Maaref Al Hekmiya, Al-Maaref Islamic Organization and Dar Al-Hajj Qasem Soleimani, alongside many other projects."
+        },
+        {
+          "type": "image",
+          "src": "/assets/stories/riwayat-alsamaa/02.jpg",
+          "alt": "Visitors exploring products on display",
+          "caption": "Visitors exploring and discovering the products on display at the exhibition.",
+          "credit": "Batoul Younes"
+        },
+        { "type": "heading", "text": "Why “Stories from Heaven”" },
+        {
+          "type": "paragraph",
+          "text": "Sheikh Rouhallah, the exhibition's director, said: “Riwayat Alsamaa — Stories from Heaven. This name was chosen because the core of this event is the Ahyaa Association, and the exhibition relies on speaking about the martyrs in a heavenly and spiritual manner.”"
+        },
+        {
+          "type": "quote",
+          "text": "The name was chosen because the most prominent characteristic of the martyrs is that they are heavenly. Even Sayyid Ali Khamenei described Martyr Qasem Soleimani upon his martyrdom as becoming heavenly.",
+          "attribution": "Sheikh Rouhallah, exhibition director"
+        },
+        {
+          "type": "paragraph",
+          "text": "He explained that what sets the exhibition apart — beyond conveying the stories of the martyrs through Ahyaa and its work — is that it gathers more than thirty artistic projects linked to them."
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "title": "Among the thirty-plus projects on show",
+          "items": [
+            "Sculptures and craft pieces",
+            "Books, notebooks and stickers",
+            "Paintings and copper calligraphy",
+            "Photographs, bags and decorated cups"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Another distinctive aspect, he added, is the location itself: the complex sits next to the shrine of the martyr Sayyed Hassan Nasrallah."
+        },
+        {
+          "type": "image",
+          "src": "/assets/stories/riwayat-alsamaa/03.jpg",
+          "alt": "A member of Ahyaa Association preparing items before opening",
+          "caption": "A member of the Ahyaa Association preparing the items minutes before the exhibition opens.",
+          "credit": "Nour Wehbi"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ahyaa is an organisation specialised in collecting the relics and stories of martyrs, and it is present at various events across the society."
+        },
+        {
+          "type": "image",
+          "src": "/assets/stories/riwayat-alsamaa/04.jpg",
+          "alt": "Mohammad Shokor, a member of Ahyaa Association",
+          "caption": "Mohammad Shokor, a member of the Ahyaa Association.",
+          "credit": "Nour Wehbi"
+        },
+        { "type": "heading", "text": "Timed with the Fatimiyyah nights" },
+        {
+          "type": "paragraph",
+          "text": "Mohammad Shokor of the Ahyaa Association noted that the exhibition coincides with the Fatimiyyah nights: “So we tried as much as possible to highlight the martyrs who supported Sayyeda Zahraa with their blood, who rose as martyrs, and who are now missing in action.”"
+        },
+        {
+          "type": "note",
+          "text": "The Fatimiyyah nights are periods of mourning and commemoration observed by Shia Muslims to honour the life, legacy and martyrdom of Sayyeda Fatimah al-Zahraa, the daughter of the Prophet Mohammad."
+        },
+        {
+          "type": "image",
+          "src": "/assets/stories/riwayat-alsamaa/05.jpg",
+          "alt": "A girl walking through the cultural exhibition",
+          "caption": "A girl walks through the exhibition, discovering the artistic and handmade pieces in front of her.",
+          "credit": "Batoul Younes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fatima Alzahraa Zein, the owner of Horr Studio, said: “Honestly, what made me join this exhibition is its cultural importance. I felt that this was something important that we had to be part of.”"
+        },
+        {
+          "type": "image",
+          "src": "/assets/stories/riwayat-alsamaa/06.jpg",
+          "alt": "A booth showing handcrafted artworks and calligraphy",
+          "caption": "A booth showcases handcrafted artworks and intricate calligraphy pieces that reflect a rich artistic tradition.",
+          "credit": "Batoul Younes"
+        },
+        { "type": "heading", "text": "Culture as a form of clarification" },
+        {
+          "type": "paragraph",
+          "text": "The exhibitions coordinator at the Al-Maaref Islamic Organization said: “Part of our responsibility and mission is to remain on this path, to offer this culture that speaks about them, about Islam. This naturally leads to freeing the human being from all forms of tyranny, whether cultural or material invasion.”"
+        },
+        {
+          "type": "image",
+          "src": "/assets/stories/riwayat-alsamaa/07.jpg",
+          "alt": "A visitor discovering the projects on display",
+          "caption": "One of the exhibition visitors discovering the projects.",
+          "credit": "Nour Wehbi"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hassan, one of the visitors, said: “Sayyid Ali Khamenei always emphasises that the mobilised person must be present in all fields. This exhibition is one of the arenas of Jihad al-Tabyin — the struggle of clarification — because of the cultures it spreads, whether Lebanese or Iranian, alongside the intellectual aspect, since we see many intellectual centres here.”"
+        },
+        {
+          "type": "note",
+          "text": "Jihad al-Tabyin is a non-violent effort to clarify the truth, correct misconceptions and spread proper understanding of religion, society and events through teaching, writing, speaking and media."
+        },
+        {
+          "type": "image",
+          "src": "/assets/stories/riwayat-alsamaa/08.jpg",
+          "alt": "An artist explaining her copper calligraphy work",
+          "caption": "Guiding visitors through her display, the artist shares the stories and techniques woven into her copper calligraphy works.",
+          "credit": "Batoul Younes"
+        },
+        {
+          "type": "image",
+          "src": "/assets/stories/riwayat-alsamaa/09.jpg",
+          "alt": "A martyr's Qur'an, burned clothing and personal items",
+          "caption": "A martyr's Qur'an, burned clothing and personal items belonging to the missing martyrs.",
+          "credit": "Nour Wehbi"
+        },
+        {
+          "type": "paragraph",
+          "text": "The exhibition continued until Sunday, 16 November."
+        }
+      ]
+    },
+    {
+      "id": "risalat",
+      "section": "multimedia",
+      "kicker": "Multimedia final project",
+      "title": "عروض جمعية رسالات مستمرة و«حكي عمومي» يقدّم تجربة كوميدية جديدة",
+      "titleEn": "Risalat keeps its stage open — and “Haki Omoumi” brings a new kind of comedy",
+      "deck": "بعد إدراج بند سحب الرخصة على جدول أعمال مجلس الوزراء، تواصل الجمعية اللبنانية للفنون عروضها، ويبرز الستاند أب كوميدي كمساحة جديدة للتعبير.",
+      "deckEn": "With a licence-withdrawal request on the cabinet agenda, the Lebanese Association for Arts keeps performing — and stand-up comedy becomes a new space for public conversation.",
+      "byline": "نور وهبي",
+      "date": "2025-12-30",
+      "displayDate": "30 December 2025",
+      "location": "بيروت، لبنان",
+      "readingTime": "6 min read",
+      "lang": "ar",
+      "dir": "rtl",
+      "cover": "/assets/stories/risalat/01.jpg",
+      "tags": ["Arabic", "Culture", "Multimedia"],
+      "featured": true,
+      "sources": [
+        { "name": "ريان خير الدين", "role": "مخرجة العرض", "type": "مقابلة" },
+        { "name": "علي منصور", "role": "كوميدي وكاتب سيناريو", "type": "مقابلة" },
+        { "name": "الأخبار", "role": "تغطية قرار سحب الرخصة", "type": "مصدر منشور" }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "lead": true,
+          "text": "تستمر عروض الجمعية اللبنانية للفنون — رسالات — في النصف الأول من شهر تشرين الثاني، بعد إدراج بند سحب الرخصة في جدول أعمال مجلس الوزراء في شهر تشرين الأول، من خلال عروض مختلفة في مسرح رسالات الثقافي."
+        },
+        {
+          "type": "image",
+          "src": "/assets/stories/risalat/01.jpg",
+          "alt": "مشهد عام من القاعة يظهر الإضاءة المسرحية والحضور",
+          "caption": "مشهد عام من القاعة يُظهر الإضاءة المسرحية والحضور الكثيف وتركيز الجمهور على العرض.",
+          "credit": "تصوير نور وهبي"
+        },
+        { "type": "heading", "text": "الفن بوصفه أداة وعي" },
+        {
+          "type": "paragraph",
+          "text": "تقدّم جمعية رسالات، التي تأسست عام 2007، الفنّ الملتزم عبر السينما والمسرح والأنشطة الثقافية المتنوعة، بهدف إعادة تعريف الفن بوصفه أداة وعي وتأثير اجتماعي، لا مجرّد وسيلة ترفيه. وتنطلق فلسفتها من اعتبار الفن رسالة تسهم في مواجهة الظلم وتعزيز القيم الإنسانية."
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "title": "أنواع الفن والمشاريع التي تقدّمها الجمعية",
+          "items": [
+            "السينما: إنتاج وعرض أفلام تعالج قضايا اجتماعية وسياسية، مثل «أباراتشي» و«سيد الحرب» و«من روحنا»، إلى جانب عرض أفلام عربية وإيرانية وترجمتها.",
+            "المسرح: أعمال على خشبة مسرحها الخاص، من بينها «سَفَر» و«كفر تكّة».",
+            "الأنشطة الثقافية: معارض وورش عمل وفعاليات، إضافة إلى «مهرجان الخيط القصير للأفلام الـ100 ثانية».",
+            "الأمسيات الإنشادية: أمسيات موسيقية ملتزمة، منها أمسية «حبّ علي».",
+            "التدريب المسرحي: برامج متخصصة مثل «دورة الشهيد أحمد بزي»، التي تركز على تقديم قصص الحرب على المسرح.",
+            "الستاند أب كوميدي: عروض كوميدية هادفة، أبرزها «حكي عمومي» و«بين المزح والجد»."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "/assets/stories/risalat/02.jpg",
+          "alt": "لقطة من القاعة تظهر المقاعد شبه الممتلئة",
+          "caption": "لقطة من القاعة تُظهر المقاعد شبه الممتلئة خلال عرض الستاند أب كوميدي «حكي عمومي».",
+          "credit": "تصوير نور وهبي"
+        },
+        { "type": "heading", "text": "قرار سحب الرخصة" },
+        {
+          "type": "paragraph",
+          "text": "أما بالنسبة لقرار سحب الرخصة، فقد جاء إثر فعالية إضاءة صخرة الروشة في ذكرى استشهاد أميني عام حزب الله، حيث تضمّن جدول أعمال مجلس الوزراء طلب وزارة الداخلية والبلديات حلّ «رسالات» وسحب العلم والخبر منها. وبحسب [الأخبار](https://www.al-akhbar.com/) كانت الحجّة «مخالفتها كتاب محافظ بيروت بشأن إذن الفعالية، وانتهاكها نظامها الداخلي والتزاماتها عند نيل الترخيص، فضلاً عن تعدّيها على الأملاك العمومية واستعمالها لغايات غير مخصصة لها، وبما يمسّ بالنظام العام من دون موافقة مسبقة»."
+        },
+        {
+          "type": "paragraph",
+          "text": "مع ذلك، يُعدّ هذا القرار مخالفًا [للمادة 22 من العهد الدولي الخاص بالحقوق المدنية والسياسية](https://www.ohchr.org/en/instruments-mechanisms/instruments/international-covenant-civil-and-political-rights)، التي تكفل لكل فرد الحق في تكوين الجمعيات مع الآخرين بحرية، وتحدد القيود المسموح بها لتكون فقط وفقًا للقانون، وبما يشكل تدابير ضرورية في مجتمع ديمقراطي لحماية الأمن القومي أو السلامة العامة أو النظام العام أو الصحة العامة أو الآداب العامة أو حقوق وحريات الآخرين."
+        },
+        {
+          "type": "paragraph",
+          "text": "كما أن هذا القرار قد ينطوي على انتهاكات لحقوق أساسية أخرى منصوص عليها في مواثيق جامعة الدول العربية والأمم المتحدة والإعلان العالمي لحقوق الإنسان، مثل الحق في المشاركة الحرة في الحياة الثقافية للمجتمع، وحق التعبير، وحق التجمع، وحق احترام قرينة البراءة، وحق الدفاع أمام محكمة مستقلة وعادلة."
+        },
+        { "type": "heading", "text": "«حكي عمومي»: الرسالة داخل الضحكة" },
+        {
+          "type": "paragraph",
+          "text": "وبعد أن أثار قرار سحب رخصة جمعية رسالات جدلًا واسعًا حول حرية ممارسة الفنون والأنشطة الثقافية، يبرز الستاند أب كوميدي «حكي عمومي»، الذي عُرض في 17-12-2025، كمثال حي على كيفية استخدام الفن للتعبير عن الواقع الاجتماعي والسياسي بطريقة مسلية ومبتكرة."
+        },
+        {
+          "type": "quote",
+          "text": "هيدا النوع كتير قريب لقلب الجمهور، وبتقدري توصلي الفكرة من خلال بسمة وضحكة.",
+          "attribution": "ريان خير الدين، مخرجة العرض"
+        },
+        {
+          "type": "paragraph",
+          "text": "كما يهدف العرض إلى تقريب الجمهور من واقع مجتمعه، وتعزيز النقاش حول القضايا العامة، وتحفيز التفكير النقدي من خلال أسلوب كوميدي يوازن بين المرح والرسالة."
+        },
+        {
+          "type": "quote",
+          "text": "نحن منقدّم المواضيع يلي منحكيها بالشارع ضمن قالب محترم، ويليق بالقضايا يلي نحن عم نقدّمها.",
+          "attribution": "علي منصور، كوميدي وكاتب سيناريو"
+        },
+        {
+          "type": "image",
+          "src": "/assets/stories/risalat/03.jpg",
+          "alt": "أحد الحضور أثناء متابعة فقرات الستاند أب كوميدي",
+          "caption": "أحد الحضور برفقة خطيبته أثناء متابعتهما فقرات الستاند أب كوميدي.",
+          "credit": "تصوير نور وهبي"
+        },
+        { "type": "heading", "text": "انطباعات الجمهور" },
+        {
+          "type": "paragraph",
+          "text": "بعد تجربة «حكي عمومي»، عبّر الحضور عن تفاعلهم الكبير مع العرض. وصف البعض التجربة بأنها «أول مرة بيئتنا بتعمل هيك شي»، بينما قال آخرون إنها «شي حلو ومفرح للناس»، مؤكدين رغبتهم في متابعة طريقة العرض وكيفية تقديم المحتوى."
+        },
+        {
+          "type": "quote",
+          "text": "نحن ببيئة المقاومة معروفين بإنو بيئة حزن وكآبة، بس نحن اليوم جايين نضحك وننبسط ونغيّر هيدي الصورة النمطية.",
+          "attribution": "أحد الحضور"
+        },
+        {
+          "type": "paragraph",
+          "text": "وعبّر شخص آخر عن شعوره بالاطمئنان من الناحية الأخلاقية: «هيدي أول مرة بكون جاي أحضر ستاند أب كوميدي ومطمنة إنو ما في شي كلمات سيئة أو بذيئة أو شي غير أخلاقي عم ينعرض». هذه الانطباعات تؤكد أن العرض جمع بين الكوميديا والفن والرسائل الاجتماعية بطريقة ممتعة وآمنة أخلاقيًا، ما جعل تجربة «حكي عمومي» فريدة في المشهد الثقافي اللبناني."
+        },
+        {
+          "type": "image",
+          "src": "/assets/stories/risalat/05.jpg",
+          "alt": "إحدى الحاضرات توثق بهاتفها فقرة الممثل الكوميدي",
+          "caption": "إحدى الحاضرات توثّق بهاتفها فقرة الممثل الكوميدي علي منصور خلال العرض.",
+          "credit": "تصوير بتول يونس"
+        },
+        {
+          "type": "paragraph",
+          "text": "رغم كل التحديات والجدل الناتج عن قرار سحب الرخصة، تثبت جمعية رسالات أن الفن لا يتوقف عند العقبات. استمرار عروضها، وفي مقدمتها «حكي عمومي»، يؤكد قدرة المسرح على الصمود، ومكانته كمساحة للإبداع والتفاعل والوعي."
+        },
+        {
+          "type": "audio",
+          "label": "Audio report — التقرير الصوتي",
+          "href": "https://on.soundcloud.com/Qvg3euolO6VFo7wC5T",
+          "platform": "SoundCloud"
+        },
+        {
+          "type": "youtube",
+          "id": "gs0CYEYMQEM",
+          "title": "Video report — التقرير المصوّر"
+        }
+      ]
+    }
+  ]
+}

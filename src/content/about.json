@@ -1,0 +1,66 @@
+{
+  "eyebrow": "About me",
+  "title": "Hello, I am Nour",
+  "lead": "A journalism and digital media student with strong expertise in storytelling, content creation and multimedia communication.",
+  "portrait": "/assets/profile/portrait.jpg",
+  "portraitCaption": "Nour Wehbi, Beirut",
+  "body": [
+    "A curious mind who captures stories through words, visuals and emotion, who believes that every voice has a story worth telling, and that we are the voice of the voiceless.",
+    "My work bridges traditional reporting with modern digital platforms, focusing on delivering engaging, credible and visually compelling stories.",
+    "I have experience in writing news articles, capturing meaningful photos, producing video features and managing social media content with an eye for accuracy and creativity.",
+    "Passionate about media innovation, I am constantly exploring how technology can enhance storytelling and connect audiences across different platforms.",
+    "Outside of media, I enjoy reading, cooking, swimming, photography and exploring new creative ideas."
+  ],
+  "closing": "Feel free to explore my portfolio and get in touch if you would like to collaborate — or just chat about creative ideas.",
+  "whatIDo": {
+    "title": "What I do",
+    "items": [
+      {
+        "title": "Reporting & writing",
+        "description": "News reports, features, op-eds and portraits in Arabic and English, built on interviews and verified sourcing."
+      },
+      {
+        "title": "Photography",
+        "description": "Documentary and event photography, from photo essays to portraits that carry the context of a place."
+      },
+      {
+        "title": "Video production",
+        "description": "Short documentaries, reels and cinematography projects — filming, editing and post-production."
+      },
+      {
+        "title": "Multimedia packages",
+        "description": "Stories that combine text, stills, audio reports and video into one coherent digital narrative."
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "groups": [
+      {
+        "name": "Editorial",
+        "items": ["Journalistic voice", "News writing", "Feature writing", "Interviewing", "Research & fact-checking"]
+      },
+      {
+        "name": "Visual",
+        "items": ["Photography", "Video editing", "Cinematography", "Photo essays", "Social media content"]
+      },
+      {
+        "name": "Tools",
+        "items": ["Microsoft Office", "Adobe Premiere", "WordPress", "Audio reporting"]
+      }
+    ]
+  },
+  "languages": [
+    { "name": "Arabic", "level": "Native" },
+    { "name": "English", "level": "Professional working proficiency" }
+  ],
+  "interests": ["Reading", "Cooking", "Swimming", "Photography", "Media innovation"],
+  "values": {
+    "title": "How I work",
+    "items": [
+      { "label": "Accuracy first", "text": "Every claim is traced back to a named source or a document." },
+      { "label": "People at the centre", "text": "Stories are told through the people who live them, not around them." },
+      { "label": "Built for the platform", "text": "The same reporting, shaped differently for print, screen and feed." }
+    ]
+  }
+}

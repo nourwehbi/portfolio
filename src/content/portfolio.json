@@ -1,0 +1,343 @@
+{
+  "eyebrow": "Portfolio",
+  "title": "Work across text, image and sound",
+  "lead": "Reporting, photography, video and multimedia projects produced between 2023 and 2025 in Lebanon. Pick a section to explore.",
+  "sections": [
+    {
+      "slug": "multimedia",
+      "title": "Multimedia",
+      "kicker": "Long-form stories",
+      "description": "Complete multimedia packages that combine reporting, photography, audio and video into a single narrative.",
+      "cover": "/assets/stories/souk-ardi/01.jpg",
+      "layout": "stories",
+      "featured": true,
+      "items": [
+        {
+          "storyId": "souk-ardi"
+        },
+        {
+          "storyId": "riwayat-alsamaa"
+        },
+        {
+          "storyId": "risalat"
+        }
+      ]
+    },
+    {
+      "slug": "photography",
+      "title": "Photography",
+      "kicker": "Frames from the field",
+      "description": "Documentary, event and portrait photography shot across Beirut and the south of Lebanon.",
+      "cover": "/assets/photography/photo-15.jpg",
+      "layout": "gallery",
+      "featured": true,
+      "note": "All photographs by Nour Wehbi. Click any frame to open it full size.",
+      "items": [
+        {
+          "src": "/assets/photography/photo-01.jpg",
+          "alt": "Photograph by Nour Wehbi",
+          "caption": ""
+        },
+        {
+          "src": "/assets/photography/photo-02.jpg",
+          "alt": "Photograph by Nour Wehbi",
+          "caption": ""
+        },
+        {
+          "src": "/assets/photography/photo-03.jpg",
+          "alt": "Photograph by Nour Wehbi",
+          "caption": ""
+        },
+        {
+          "src": "/assets/photography/photo-04.jpg",
+          "alt": "Photograph by Nour Wehbi",
+          "caption": ""
+        },
+        {
+          "src": "/assets/photography/photo-05.jpg",
+          "alt": "Photograph by Nour Wehbi",
+          "caption": ""
+        },
+        {
+          "src": "/assets/photography/photo-06.jpg",
+          "alt": "Photograph by Nour Wehbi",
+          "caption": ""
+        },
+        {
+          "src": "/assets/photography/photo-07.jpg",
+          "alt": "Photograph by Nour Wehbi",
+          "caption": ""
+        },
+        {
+          "src": "/assets/photography/photo-08.jpg",
+          "alt": "Photograph by Nour Wehbi",
+          "caption": ""
+        },
+        {
+          "src": "/assets/photography/photo-09.jpg",
+          "alt": "Photograph by Nour Wehbi",
+          "caption": ""
+        },
+        {
+          "src": "/assets/photography/photo-10.jpg",
+          "alt": "Photograph by Nour Wehbi",
+          "caption": ""
+        },
+        {
+          "src": "/assets/photography/photo-11.jpg",
+          "alt": "Photograph by Nour Wehbi",
+          "caption": ""
+        },
+        {
+          "src": "/assets/photography/photo-12.jpg",
+          "alt": "Photograph by Nour Wehbi",
+          "caption": ""
+        },
+        {
+          "src": "/assets/photography/photo-13.jpg",
+          "alt": "Photograph by Nour Wehbi",
+          "caption": ""
+        },
+        {
+          "src": "/assets/photography/photo-14.jpg",
+          "alt": "Photograph by Nour Wehbi",
+          "caption": ""
+        },
+        {
+          "src": "/assets/photography/photo-15.jpg",
+          "alt": "Photograph by Nour Wehbi",
+          "caption": ""
+        },
+        {
+          "src": "/assets/photography/photo-16.jpg",
+          "alt": "Photograph by Nour Wehbi",
+          "caption": ""
+        },
+        {
+          "src": "/assets/photography/photo-17.jpg",
+          "alt": "Photograph by Nour Wehbi",
+          "caption": ""
+        },
+        {
+          "src": "/assets/photography/photo-18.jpg",
+          "alt": "Photograph by Nour Wehbi",
+          "caption": ""
+        },
+        {
+          "src": "/assets/photography/photo-19.jpg",
+          "alt": "Photograph by Nour Wehbi",
+          "caption": ""
+        },
+        {
+          "src": "/assets/photography/photo-20.jpg",
+          "alt": "Photograph by Nour Wehbi",
+          "caption": ""
+        },
+        {
+          "src": "/assets/photography/photo-21.jpg",
+          "alt": "Photograph by Nour Wehbi",
+          "caption": ""
+        },
+        {
+          "src": "/assets/photography/photo-22.jpg",
+          "alt": "Photograph by Nour Wehbi",
+          "caption": ""
+        },
+        {
+          "src": "/assets/photography/photo-23.jpg",
+          "alt": "Photograph by Nour Wehbi",
+          "caption": ""
+        },
+        {
+          "src": "/assets/photography/photo-24.jpg",
+          "alt": "Photograph by Nour Wehbi",
+          "caption": ""
+        },
+        {
+          "src": "/assets/photography/photo-25.jpg",
+          "alt": "Photograph by Nour Wehbi",
+          "caption": ""
+        },
+        {
+          "src": "/assets/photography/photo-26.jpg",
+          "alt": "Photograph by Nour Wehbi",
+          "caption": ""
+        },
+        {
+          "src": "/assets/photography/photo-27.jpg",
+          "alt": "Photograph by Nour Wehbi",
+          "caption": ""
+        },
+        {
+          "src": "/assets/photography/photo-28.jpg",
+          "alt": "Photograph by Nour Wehbi",
+          "caption": ""
+        },
+        {
+          "src": "/assets/photography/photo-29.jpg",
+          "alt": "Photograph by Nour Wehbi",
+          "caption": ""
+        },
+        {
+          "src": "/assets/photography/photo-30.jpg",
+          "alt": "Photograph by Nour Wehbi",
+          "caption": ""
+        },
+        {
+          "src": "/assets/photography/photo-31.jpg",
+          "alt": "Photograph by Nour Wehbi",
+          "caption": ""
+        },
+        {
+          "src": "/assets/photography/photo-32.jpg",
+          "alt": "Photograph by Nour Wehbi",
+          "caption": ""
+        },
+        {
+          "src": "/assets/photography/photo-33.jpg",
+          "alt": "Photograph by Nour Wehbi",
+          "caption": ""
+        },
+        {
+          "src": "/assets/photography/photo-34.jpg",
+          "alt": "Photograph by Nour Wehbi",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "slug": "video",
+      "title": "Video",
+      "kicker": "Moving images",
+      "description": "Short documentaries, reels and cinematography work — from concept and filming through to the final edit.",
+      "cover": "https://i.ytimg.com/vi/_qh06QVKWss/hqdefault.jpg",
+      "layout": "video",
+      "featured": true,
+      "note": "Comments and feedback are always welcome.",
+      "items": [
+        {
+          "title": "Organ donation after the pager explosions",
+          "youtubeId": "eVY9lsAUWYc",
+          "type": "APR project",
+          "year": "2025",
+          "description": "An audio-visual project on organ donation, reported in the circumstances that followed the pager explosions."
+        },
+        {
+          "title": "The walls of Aynatha",
+          "youtubeId": "7i8esWkeWcs",
+          "type": "Video feature",
+          "year": "2025",
+          "description": "The murals of Aynatha in South Lebanon, and the Lebanese stories painted onto them."
+        },
+        {
+          "title": "Jawad — what his parents left behind",
+          "youtubeId": "_qh06QVKWss",
+          "type": "Cinematography final project",
+          "year": "2025",
+          "description": "A short film about the family of the martyr Jawad and the values his parents taught him before their own martyrdom."
+        },
+        {
+          "title": "MU Open Doors reel",
+          "youtubeId": "QpkjZ_LAcqs",
+          "type": "Reel",
+          "year": "2025",
+          "description": "A reel highlighting participants from university clubs, student affairs and the different colleges."
+        },
+        {
+          "title": "Shot types study",
+          "youtubeId": "kHhhSN0-oCQ",
+          "type": "Cinematography assignment",
+          "year": "2024",
+          "description": "An exercise working through different shot types and their narrative effect."
+        }
+      ]
+    },
+    {
+      "slug": "text",
+      "title": "Text",
+      "kicker": "Written journalism",
+      "description": "Op-eds, features, portraits and reports written in Arabic and English for university and newsroom assignments.",
+      "cover": "/assets/photography/photo-30.jpg",
+      "layout": "documents",
+      "featured": true,
+      "note": "Each piece is available to download in full.",
+      "items": [
+        {
+          "title": "Freedom of expression, ignored",
+          "type": "Op-ed",
+          "language": "English",
+          "description": "An opinion article on freedom of expression and how it is set aside in the Lebanese case.",
+          "file": "/docs/op-ed-freedom-of-expression.docx",
+          "format": "DOCX"
+        },
+        {
+          "title": "The young man who chose to stay",
+          "type": "Feature story",
+          "language": "Arabic",
+          "description": "A feature about a Lebanese youth who decided to stay in Lebanon although he had opportunities abroad.",
+          "file": "/docs/feature-story-staying-in-lebanon.docx",
+          "format": "DOCX"
+        },
+        {
+          "title": "Ali Khamenei at 86",
+          "type": "Portrait",
+          "language": "Arabic",
+          "description": "A portrait of Ali Khamenei written on his 86th birthday.",
+          "file": "/docs/portrait-ali-khamenei.docx",
+          "format": "DOCX"
+        },
+        {
+          "title": "Tom Barrack — a Lebanese-born billionaire in American politics",
+          "type": "Portrait",
+          "language": "Arabic",
+          "description": "A portrait of Tom Barrack, the Lebanese-born billionaire at the heart of American politics.",
+          "file": "/docs/portrait-tom-barrack.docx",
+          "format": "DOCX"
+        },
+        {
+          "title": "Al-Karar front page — parliamentary elections",
+          "type": "Newspaper front page",
+          "language": "Arabic",
+          "description": "The main headline of Al-Karar newspaper welcoming the parliamentary elections and the debate on amending them.",
+          "file": "/docs/al-karar-newspaper-front-page.docx",
+          "format": "DOCX"
+        },
+        {
+          "title": "Trump threatens, Brazil answers",
+          "type": "Report",
+          "language": "Arabic",
+          "description": "A report on American and Brazilian trade tensions following Trump's tariff decision over Bolsonaro's trial.",
+          "file": "/docs/report-trump-brazil-tariffs.docx",
+          "format": "DOCX"
+        },
+        {
+          "title": "US trade escalation across 14 Asian countries",
+          "type": "Report",
+          "language": "Arabic",
+          "description": "A report on US trade escalation as Trump threatens high tariffs on 14 mostly Asian countries without bilateral deals with Washington.",
+          "file": "/docs/report-us-tariffs-14-asian-countries.docx",
+          "format": "DOCX"
+        }
+      ]
+    },
+    {
+      "slug": "research",
+      "title": "Research",
+      "kicker": "Academic work",
+      "description": "Media research examining how outlets in different regions frame the same event.",
+      "cover": "/assets/photography/photo-20.jpg",
+      "layout": "documents",
+      "featured": false,
+      "items": [
+        {
+          "title": "Western vs regional coverage of the Syrian coast massacre",
+          "type": "Research paper",
+          "language": "English",
+          "description": "How Western outlets such as CNN, the BBC and The New York Times covered the 2025 Alawite civilian massacre on the Syrian coast — largely through a political and military lens — compared with regional channels such as Al Jazeera, Al Mayadeen and Al Akhbar, which foregrounded victims and local context.",
+          "file": "/docs/research-paper-syria-coast-coverage.pdf",
+          "format": "PDF"
+        }
+      ]
+    }
+  ]
+}
