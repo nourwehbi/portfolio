@@ -1,90 +1,160 @@
 {
   "eyebrow": "Curriculum vitae",
   "title": "Nour Wehbi",
-  "role": "Journalist & Digital Media Student",
-  "summary": "Journalism and digital media student skilled in storytelling, content creation and multimedia communication. I combine creativity with accuracy to produce engaging stories across digital platforms.",
-  "lastUpdated": "November 2025",
+  "role": "Journalism & Digital Media Student",
+  "summary": "Journalism and Digital Media student with a passion for compelling storytelling and multimedia content creation. I blend creative vision with editorial accuracy to produce impactful, engaging narratives across diverse digital platforms.",
+  "lastUpdated": "September 2026",
   "downloads": [
-    { "label": "Download CV (image)", "href": "/assets/profile/cv.jpg", "type": "JPG" }
+    { "label": "Download CV (PDF)", "href": "/docs/nour-wehbi-cv.pdf", "type": "PDF" }
   ],
   "originalDocument": {
-    "title": "Designed CV",
-    "image": "/assets/profile/cv.jpg",
-    "caption": "The original one-page designed CV."
+    "title": "Full CV",
+    "file": "/docs/nour-wehbi-cv.pdf",
+    "caption": "The complete CV, as a PDF."
   },
   "details": [
-    { "label": "Phone", "value": "+961 71 813 891", "href": "tel:+96171813891" },
+    { "label": "Phone", "value": "(+961) 71 813 891", "href": "tel:+96171813891" },
     { "label": "Email", "value": "nur.a.wehbi@gmail.com", "href": "mailto:nur.a.wehbi@gmail.com" },
     { "label": "Location", "value": "Hadath, Beirut — Lebanon" }
   ],
   "education": [
     {
-      "period": "2023 — Present",
-      "institution": "Al-Maaref University",
-      "qualification": "Bachelor of Journalism & Digital Media",
-      "notes": "Coursework across news writing, cinematography, multimedia production, media research and photojournalism."
-    },
-    {
-      "period": "2019 — 2022",
-      "institution": "Bint Jbeil School",
-      "qualification": "Baccalaureate II — Life Sciences",
+      "period": "Oct 2023 — Present",
+      "institution": "Al Maaref University",
+      "qualification": "Bachelor of Arts in Journalism and Digital Media",
       "notes": ""
     }
   ],
   "experience": [
     {
-      "period": "May 2025",
-      "role": "Event & production assistant",
-      "organisation": "FMFL — Forum of Media Faculties in Lebanon",
-      "location": "Al-Maaref University",
+      "period": "Feb 2026 — Jul 2026",
+      "role": "Editorial Intern",
+      "organisation": "Ektisadi.com",
+      "location": "",
       "points": [
-        "Supported event operations by welcoming guests and managing the reception desk.",
-        "Assisted with filming across the forum programme.",
-        "Coordinated décor and staging arrangements."
+        "Wrote, edited and published news articles in Arabic and English.",
+        "Uploaded and managed news content on the website.",
+        "Selected and formatted images for published articles.",
+        "Assisted in preparing and organising online news content."
       ]
     },
     {
-      "period": "May 2025",
-      "role": "Video producer",
-      "organisation": "MU Open Doors",
-      "location": "Al-Maaref University",
+      "period": "Jul 2026",
+      "role": "Social Media Coverage",
+      "organisation": "Fourth International Conference on Digital Journalism and Innovative Media Industry",
+      "location": "",
       "points": [
-        "Produced a reel highlighting participants from university clubs, student affairs and different colleges.",
-        "Handled filming, interview capture and edit."
-      ]
-    },
-    {
-      "period": "April 2025",
-      "role": "Student ambassador",
-      "organisation": "MU Open Doors",
-      "location": "Al-Maaref University",
-      "points": [
-        "Ran student reception and guided campus tours for prospective students and families."
-      ]
-    },
-    {
-      "period": "July 2023",
-      "role": "Editing assistant",
-      "organisation": "July War Project",
-      "location": "Al-Maaref University",
-      "points": [
-        "Edited a long-form interview end to end, from raw footage to final cut."
+        "Covered conference activities across social media platforms.",
+        "Conducted interviews with speakers and participants."
       ]
     }
   ],
-  "skills": [
-    "Journalistic voice",
-    "News & feature writing",
-    "Interviewing",
-    "Photography",
-    "Video editing",
-    "Cinematography",
-    "Microsoft Office",
-    "Problem solving"
+  "projects": {
+    "title": "Projects & events",
+    "items": [
+      {
+        "period": "Nov 2025 — Jan 2026",
+        "role": "Participant",
+        "organisation": "Rawat Al-Ard Project",
+        "location": "",
+        "points": [
+          "Conducted and audio-recorded oral history interviews documenting personal experiences from the 2024 war on Lebanon.",
+          "Transcribed interviews and organised oral testimonies into written records.",
+          "Collected and archived historical documents and supporting materials related to the documented events."
+        ]
+      },
+      {
+        "period": "Apr 2025 — May 2025",
+        "role": "Student Ambassador & Content Creator",
+        "organisation": "Al-Maaref University Open Doors",
+        "location": "",
+        "points": [
+          "Welcomed students and assisted with student reception activities.",
+          "Guided students during campus tours.",
+          "Produced a reel highlighting university clubs, Student Affairs and different colleges."
+        ]
+      },
+      {
+        "period": "May 2025",
+        "role": "Event Support Volunteer",
+        "organisation": "Forum of Media Faculties in Lebanon",
+        "location": "",
+        "points": [
+          "Supported event operations and guest reception.",
+          "Assisted with filming and media coverage.",
+          "Helped with venue preparation and decoration arrangements."
+        ]
+      }
+    ]
+  },
+  "skillGroups": [
+    {
+      "name": "Journalism",
+      "items": [
+        "News writing and editing",
+        "Digital journalism",
+        "Interviewing techniques"
+      ]
+    },
+    {
+      "name": "Media",
+      "items": [
+        "Multimedia storytelling",
+        "Photography",
+        "Videography",
+        "Social media content creation",
+        "Fact-checking and research"
+      ]
+    },
+    {
+      "name": "Technical",
+      "items": [
+        "Adobe Premiere Pro",
+        "Adobe Photoshop",
+        "Adobe Audition",
+        "CapCut",
+        "Social media platforms"
+      ]
+    }
   ],
+  "courses": {
+    "title": "Courses & certificates",
+    "items": [
+      {
+        "name": "English Access Micro-Scholarship Program — Certificate of Achievement",
+        "issuer": "U.S. Embassy in Beirut",
+        "year": "2020 — 2022"
+      },
+      {
+        "name": "Media Standards Workshop Certificate",
+        "issuer": "with Rodolph Hilal",
+        "year": ""
+      },
+      {
+        "name": "Service and Product Design Workshop",
+        "issuer": "",
+        "year": "2025"
+      },
+      {
+        "name": "Freelancing and Entrepreneurship Workshop",
+        "issuer": "",
+        "year": "2025"
+      },
+      {
+        "name": "Marketing Plan for Startups & Digital Platforms Workshop",
+        "issuer": "",
+        "year": "2025"
+      },
+      {
+        "name": "AI Production for Entrepreneurs Workshop",
+        "issuer": "",
+        "year": "2025"
+      }
+    ]
+  },
   "languages": [
     { "name": "Arabic", "level": "Native" },
-    { "name": "English", "level": "Professional working proficiency" }
+    { "name": "English", "level": "Advanced" }
   ],
   "selectedWork": {
     "title": "Selected work",

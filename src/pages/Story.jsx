@@ -17,6 +17,12 @@ export default function Story() {
 
   if (!story) return <Navigate to="/portfolio" replace />
 
+  // Stories published elsewhere have no page here — send visitors who land on
+  // this URL back to the section, where the card links out.
+  if (story.externalUrl) {
+    return <Navigate to={`/portfolio/${story.section}`} replace />
+  }
+
   const { prev, next } = storyNeighbours(story.id)
   const rtl = story.dir === 'rtl'
 

@@ -107,6 +107,20 @@ export const Doc = (p) => (
   </svg>
 )
 
+export const ExternalLink = (p) => (
+  <svg {...base} {...p}>
+    <path d="M14 4h6v6M20 4l-8.5 8.5" />
+    <path d="M18 14.5V18a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h3.5" />
+  </svg>
+)
+
+export const Eye = (p) => (
+  <svg {...base} {...p}>
+    <path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12S18 18.5 12 18.5 2.5 12 2.5 12Z" />
+    <circle cx="12" cy="12" r="3" />
+  </svg>
+)
+
 export const Camera = (p) => (
   <svg {...base} {...p}>
     <path d="M3 8.5A2.5 2.5 0 0 1 5.5 6h1.8l1.2-2h6l1.2 2h1.8A2.5 2.5 0 0 1 20 8.5v8A2.5 2.5 0 0 1 17.5 19h-11A2.5 2.5 0 0 1 4 16.5Z" />

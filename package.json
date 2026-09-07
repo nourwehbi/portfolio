@@ -8,7 +8,8 @@
     "build": "vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "optimize:images": "node scripts/optimize-images.mjs"
+    "optimize:images": "node scripts/optimize-images.mjs",
+    "docs:previews": "powershell -ExecutionPolicy Bypass -File scripts/make-doc-previews.ps1"
   },
   "dependencies": {
     "react": "^19.2.8",

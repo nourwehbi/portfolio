@@ -11,6 +11,7 @@ import cvJson from '../content/cv.json'
 import portfolioJson from '../content/portfolio.json'
 import storiesJson from '../content/stories.json'
 import contactJson from '../content/contact.json'
+import internshipJson from '../content/internship.json'
 
 /**
  * The path the site is served from — "/" locally, "/portfolio/" on GitHub
@@ -47,6 +48,7 @@ export const about = withBase(aboutJson)
 export const cv = withBase(cvJson)
 export const portfolio = withBase(portfolioJson)
 export const contact = withBase(contactJson)
+export const internship = withBase(internshipJson)
 
 export const stories = withBase(storiesJson).stories ?? []
 
@@ -89,11 +91,19 @@ export const countLabel = (section) => {
   return `${n} ${n === 1 ? one : many}`
 }
 
-/** Story navigation: previous / next within the same section. */
+/** True for a story published elsewhere, which has no page on this site. */
+export const isExternalStory = (story) => Boolean(story?.externalUrl)
+
+/**
+ * Story navigation: previous / next within the same section. Externally
+ * published stories are skipped — they have no article page to link to.
+ */
 export const storyNeighbours = (id) => {
   const story = getStory(id)
   if (!story) return { prev: null, next: null }
-  const siblings = stories.filter((s) => s.section === story.section)
+  const siblings = stories.filter(
+    (s) => s.section === story.section && !isExternalStory(s),
+  )
   const i = siblings.findIndex((s) => s.id === id)
   return {
     prev: i > 0 ? siblings[i - 1] : null,

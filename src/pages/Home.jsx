@@ -179,8 +179,12 @@ export default function Home() {
             <Reveal className="sec-head">
               <div className="sec-head__copy">
                 <p className="eyebrow">{homeSections.storyTeaser.eyebrow}</p>
-                <h2 className="display-3">{lead.title}</h2>
+                <h2 className="display-3">{homeSections.storyTeaser.title}</h2>
               </div>
+              <Link to="/portfolio/multimedia" className="link-arrow">
+                All stories
+                <ArrowRight width={15} height={15} />
+              </Link>
             </Reveal>
             <Reveal delay={80}>
               <StoryCard story={lead} />

@@ -1,6 +1,94 @@
 {
   "stories": [
     {
+      "id": "hay-al-sellom",
+      "section": "multimedia",
+      "kicker": "Investigation",
+      "title": "بنك الأهداف المنسي",
+      "titleEn": "The forgotten target bank",
+      "deck": "تحقيق في الغارة التي استمرّت عشر دقائق على حيّ السلّم، يوثّق أسماء المدنيين الذين قتلوا، والعائلات التي مُحيت من سجلّات النفوس، والكلفة الإنسانية التي بقيت تحت الركام.",
+      "deckEn": "An investigation into the deadly ten-minute airstrike on Hay Al-Sellom, documenting the civilian lives lost, families erased from the civil registry, and the human cost left beneath the rubble.",
+      "byline": "نور وهبي",
+      "date": "2026",
+      "displayDate": "2026",
+      "location": "حيّ السلّم، بيروت",
+      "lang": "ar",
+      "dir": "rtl",
+      "cover": "/assets/stories/hay-al-sellom/cover.jpg",
+      "tags": [
+        "Investigation",
+        "Arabic"
+      ],
+      "featured": true,
+      "externalUrl": "https://preview.shorthand.com/oCHvj95SLyVCumLh",
+      "externalLabel": "Shorthand"
+    },
+    {
+      "id": "negotiation",
+      "section": "multimedia",
+      "kicker": "Multimedia story",
+      "title": "العمالة في زمن التفاوض",
+      "titleEn": "Collaboration in a time of negotiation",
+      "deck": "نظرة أقرب إلى مفاوضات لبنان مع إسرائيل، وإلى التوتّر المتزايد بين القرارات السياسية التي تُتّخذ على طاولة التفاوض وواقع جنوبٍ ما زال تحت النار.",
+      "deckEn": "A closer look at Lebanon's negotiations with Israel, examining the growing tension between political decisions made at the negotiating table and the reality of a South still living under fire.",
+      "byline": "نور وهبي",
+      "date": "2026",
+      "displayDate": "2026",
+      "location": "جنوب لبنان",
+      "lang": "ar",
+      "dir": "rtl",
+      "cover": "/assets/stories/negotiation/cover.jpg",
+      "tags": [
+        "Politics",
+        "Arabic"
+      ],
+      "featured": true,
+      "externalUrl": "https://preview.shorthand.com/zRcM1ZMidzSEy3PA",
+      "externalLabel": "Shorthand"
+    },
+    {
+      "id": "ceasefire",
+      "section": "multimedia",
+      "kicker": "Multimedia story",
+      "title": "Under the So-Called Ceasefire",
+      "deck": "A story of returning home after displacement, as one family navigates life under a fragile ceasefire — caught between the comfort of home and the fear of having to leave again.",
+      "byline": "Nour Wehbi",
+      "date": "2026",
+      "displayDate": "2026",
+      "location": "South Lebanon",
+      "lang": "en",
+      "dir": "ltr",
+      "cover": "/assets/stories/ceasefire/cover.jpg",
+      "tags": [
+        "Reporting",
+        "Displacement"
+      ],
+      "featured": true,
+      "externalUrl": "https://preview.shorthand.com/f3yvLghV3MIgqWtN",
+      "externalLabel": "Shorthand"
+    },
+    {
+      "id": "holding-on",
+      "section": "multimedia",
+      "kicker": "Multimedia story",
+      "title": "Holding On, While Helping Others Hold On",
+      "deck": "A mother and her two daughters, displaced by war, chose to support other displaced families — finding purpose, solidarity and resilience while still navigating their own uncertainty.",
+      "byline": "Nour Wehbi",
+      "date": "2026",
+      "displayDate": "2026",
+      "location": "Lebanon",
+      "lang": "en",
+      "dir": "ltr",
+      "cover": "/assets/stories/holding-on/cover.jpg",
+      "tags": [
+        "Reporting",
+        "Displacement"
+      ],
+      "featured": true,
+      "externalUrl": "https://preview.shorthand.com/q5yIE6V3FBtYK2qI",
+      "externalLabel": "Shorthand"
+    },
+    {
       "id": "souk-ardi",
       "section": "multimedia",
       "kicker": "Multimedia story",
@@ -14,21 +102,48 @@
       "lang": "en",
       "dir": "ltr",
       "cover": "/assets/stories/souk-ardi/01.jpg",
-      "tags": ["Reporting", "Economy", "Community"],
+      "tags": [
+        "Reporting",
+        "Economy",
+        "Community"
+      ],
       "featured": true,
       "sources": [
-        { "name": "Hassan Majed", "role": "RTV student practising at Souk Ardi", "type": "Interview" },
-        { "name": "Dr. Mohammad Haidar", "role": "Minister of Labor", "type": "Opening ceremony remarks" }
+        {
+          "name": "Hassan Majed",
+          "role": "RTV student practising at Souk Ardi",
+          "type": "Interview"
+        },
+        {
+          "name": "Dr. Mohammad Haidar",
+          "role": "Minister of Labor",
+          "type": "Opening ceremony remarks"
+        }
       ],
       "blocks": [
         {
           "type": "gallery",
           "images": [
-            { "src": "/assets/stories/souk-ardi/01.jpg", "alt": "Stalls at Souk Ardi in Beirut" },
-            { "src": "/assets/stories/souk-ardi/02.jpg", "alt": "Handmade products on display at Souk Ardi" },
-            { "src": "/assets/stories/souk-ardi/03.jpg", "alt": "Visitors browsing the market" },
-            { "src": "/assets/stories/souk-ardi/04.jpg", "alt": "Local produce brought from the South and the Beqaa" },
-            { "src": "/assets/stories/souk-ardi/05.jpg", "alt": "An artisan at her stall" }
+            {
+              "src": "/assets/stories/souk-ardi/01.jpg",
+              "alt": "Stalls at Souk Ardi in Beirut"
+            },
+            {
+              "src": "/assets/stories/souk-ardi/02.jpg",
+              "alt": "Handmade products on display at Souk Ardi"
+            },
+            {
+              "src": "/assets/stories/souk-ardi/03.jpg",
+              "alt": "Visitors browsing the market"
+            },
+            {
+              "src": "/assets/stories/souk-ardi/04.jpg",
+              "alt": "Local produce brought from the South and the Beqaa"
+            },
+            {
+              "src": "/assets/stories/souk-ardi/05.jpg",
+              "alt": "An artisan at her stall"
+            }
           ],
           "credit": "Photographs: Nour Wehbi"
         },
@@ -41,7 +156,10 @@
           "type": "paragraph",
           "text": "For many of the artisans and farmers setting up their stalls, this is more than a market. It is a chance to show that resilience can take the shape of bread, embroidery and soil-stained hands."
         },
-        { "type": "heading", "text": "“Every product here carries a story”" },
+        {
+          "type": "heading",
+          "text": "“Every product here carries a story”"
+        },
         {
           "type": "paragraph",
           "text": "“Every product here carries a story,” said Hassan Majed, an RTV student currently practising at Souk Ardi. “Some of these women are from villages that were bombed. They lost their land, their homes, even their families. But they're here, selling what they made with their own hands. That's what resistance looks like.”"
@@ -65,7 +183,10 @@
           "type": "paragraph",
           "text": "Visitors stopped to taste, to listen, to remember where it all came from: the land."
         },
-        { "type": "heading", "text": "“Productive work is resistance”" },
+        {
+          "type": "heading",
+          "text": "“Productive work is resistance”"
+        },
         {
           "type": "paragraph",
           "text": "As Minister of Labor Dr. Mohammad Haidar put it during the opening ceremony, dignified work is not just an economic act — it is a national one."
@@ -90,7 +211,10 @@
           "type": "paragraph",
           "text": "“You can feel it,” he said quietly. “It's not just a market — it's a message. These people are rebuilding, one jar, one craft, one story at a time.”"
         },
-        { "type": "heading", "text": "A bridge between loss and renewal" },
+        {
+          "type": "heading",
+          "text": "A bridge between loss and renewal"
+        },
         {
           "type": "paragraph",
           "text": "Souk Ardi is more than an exhibition of local goods. It is a testament to the Lebanese spirit — a bridge between loss and renewal, between the past that shaped these families and the future they continue to build with their hands."
@@ -126,12 +250,28 @@
       "lang": "en",
       "dir": "ltr",
       "cover": "/assets/stories/riwayat-alsamaa/01.jpg",
-      "tags": ["Photo essay", "Culture", "Photography"],
+      "tags": [
+        "Photo essay",
+        "Culture",
+        "Photography"
+      ],
       "featured": true,
       "sources": [
-        { "name": "Sheikh Rouhallah", "role": "Exhibition director", "type": "Interview" },
-        { "name": "Mohammad Shokor", "role": "Member, Ahyaa Association", "type": "Interview" },
-        { "name": "Fatima Alzahraa Zein", "role": "Owner, Horr Studio", "type": "Interview" }
+        {
+          "name": "Sheikh Rouhallah",
+          "role": "Exhibition director",
+          "type": "Interview"
+        },
+        {
+          "name": "Mohammad Shokor",
+          "role": "Member, Ahyaa Association",
+          "type": "Interview"
+        },
+        {
+          "name": "Fatima Alzahraa Zein",
+          "role": "Owner, Horr Studio",
+          "type": "Interview"
+        }
       ],
       "blocks": [
         {
@@ -157,7 +297,10 @@
           "caption": "Visitors exploring and discovering the products on display at the exhibition.",
           "credit": "Batoul Younes"
         },
-        { "type": "heading", "text": "Why “Stories from Heaven”" },
+        {
+          "type": "heading",
+          "text": "Why “Stories from Heaven”"
+        },
         {
           "type": "paragraph",
           "text": "Sheikh Rouhallah, the exhibition's director, said: “Riwayat Alsamaa — Stories from Heaven. This name was chosen because the core of this event is the Ahyaa Association, and the exhibition relies on speaking about the martyrs in a heavenly and spiritual manner.”"
@@ -204,7 +347,10 @@
           "caption": "Mohammad Shokor, a member of the Ahyaa Association.",
           "credit": "Nour Wehbi"
         },
-        { "type": "heading", "text": "Timed with the Fatimiyyah nights" },
+        {
+          "type": "heading",
+          "text": "Timed with the Fatimiyyah nights"
+        },
         {
           "type": "paragraph",
           "text": "Mohammad Shokor of the Ahyaa Association noted that the exhibition coincides with the Fatimiyyah nights: “So we tried as much as possible to highlight the martyrs who supported Sayyeda Zahraa with their blood, who rose as martyrs, and who are now missing in action.”"
@@ -231,7 +377,10 @@
           "caption": "A booth showcases handcrafted artworks and intricate calligraphy pieces that reflect a rich artistic tradition.",
           "credit": "Batoul Younes"
         },
-        { "type": "heading", "text": "Culture as a form of clarification" },
+        {
+          "type": "heading",
+          "text": "Culture as a form of clarification"
+        },
         {
           "type": "paragraph",
           "text": "The exhibitions coordinator at the Al-Maaref Islamic Organization said: “Part of our responsibility and mission is to remain on this path, to offer this culture that speaks about them, about Islam. This naturally leads to freeing the human being from all forms of tyranny, whether cultural or material invasion.”"
@@ -287,12 +436,28 @@
       "lang": "ar",
       "dir": "rtl",
       "cover": "/assets/stories/risalat/01.jpg",
-      "tags": ["Arabic", "Culture", "Multimedia"],
+      "tags": [
+        "Arabic",
+        "Culture",
+        "Multimedia"
+      ],
       "featured": true,
       "sources": [
-        { "name": "ريان خير الدين", "role": "مخرجة العرض", "type": "مقابلة" },
-        { "name": "علي منصور", "role": "كوميدي وكاتب سيناريو", "type": "مقابلة" },
-        { "name": "الأخبار", "role": "تغطية قرار سحب الرخصة", "type": "مصدر منشور" }
+        {
+          "name": "ريان خير الدين",
+          "role": "مخرجة العرض",
+          "type": "مقابلة"
+        },
+        {
+          "name": "علي منصور",
+          "role": "كوميدي وكاتب سيناريو",
+          "type": "مقابلة"
+        },
+        {
+          "name": "الأخبار",
+          "role": "تغطية قرار سحب الرخصة",
+          "type": "مصدر منشور"
+        }
       ],
       "blocks": [
         {
@@ -307,7 +472,10 @@
           "caption": "مشهد عام من القاعة يُظهر الإضاءة المسرحية والحضور الكثيف وتركيز الجمهور على العرض.",
           "credit": "تصوير نور وهبي"
         },
-        { "type": "heading", "text": "الفن بوصفه أداة وعي" },
+        {
+          "type": "heading",
+          "text": "الفن بوصفه أداة وعي"
+        },
         {
           "type": "paragraph",
           "text": "تقدّم جمعية رسالات، التي تأسست عام 2007، الفنّ الملتزم عبر السينما والمسرح والأنشطة الثقافية المتنوعة، بهدف إعادة تعريف الفن بوصفه أداة وعي وتأثير اجتماعي، لا مجرّد وسيلة ترفيه. وتنطلق فلسفتها من اعتبار الفن رسالة تسهم في مواجهة الظلم وتعزيز القيم الإنسانية."
@@ -332,7 +500,10 @@
           "caption": "لقطة من القاعة تُظهر المقاعد شبه الممتلئة خلال عرض الستاند أب كوميدي «حكي عمومي».",
           "credit": "تصوير نور وهبي"
         },
-        { "type": "heading", "text": "قرار سحب الرخصة" },
+        {
+          "type": "heading",
+          "text": "قرار سحب الرخصة"
+        },
         {
           "type": "paragraph",
           "text": "أما بالنسبة لقرار سحب الرخصة، فقد جاء إثر فعالية إضاءة صخرة الروشة في ذكرى استشهاد أميني عام حزب الله، حيث تضمّن جدول أعمال مجلس الوزراء طلب وزارة الداخلية والبلديات حلّ «رسالات» وسحب العلم والخبر منها. وبحسب [الأخبار](https://www.al-akhbar.com/) كانت الحجّة «مخالفتها كتاب محافظ بيروت بشأن إذن الفعالية، وانتهاكها نظامها الداخلي والتزاماتها عند نيل الترخيص، فضلاً عن تعدّيها على الأملاك العمومية واستعمالها لغايات غير مخصصة لها، وبما يمسّ بالنظام العام من دون موافقة مسبقة»."
@@ -345,7 +516,10 @@
           "type": "paragraph",
           "text": "كما أن هذا القرار قد ينطوي على انتهاكات لحقوق أساسية أخرى منصوص عليها في مواثيق جامعة الدول العربية والأمم المتحدة والإعلان العالمي لحقوق الإنسان، مثل الحق في المشاركة الحرة في الحياة الثقافية للمجتمع، وحق التعبير، وحق التجمع، وحق احترام قرينة البراءة، وحق الدفاع أمام محكمة مستقلة وعادلة."
         },
-        { "type": "heading", "text": "«حكي عمومي»: الرسالة داخل الضحكة" },
+        {
+          "type": "heading",
+          "text": "«حكي عمومي»: الرسالة داخل الضحكة"
+        },
         {
           "type": "paragraph",
           "text": "وبعد أن أثار قرار سحب رخصة جمعية رسالات جدلًا واسعًا حول حرية ممارسة الفنون والأنشطة الثقافية، يبرز الستاند أب كوميدي «حكي عمومي»، الذي عُرض في 17-12-2025، كمثال حي على كيفية استخدام الفن للتعبير عن الواقع الاجتماعي والسياسي بطريقة مسلية ومبتكرة."
@@ -371,7 +545,10 @@
           "caption": "أحد الحضور برفقة خطيبته أثناء متابعتهما فقرات الستاند أب كوميدي.",
           "credit": "تصوير نور وهبي"
         },
-        { "type": "heading", "text": "انطباعات الجمهور" },
+        {
+          "type": "heading",
+          "text": "انطباعات الجمهور"
+        },
         {
           "type": "paragraph",
           "text": "بعد تجربة «حكي عمومي»، عبّر الحضور عن تفاعلهم الكبير مع العرض. وصف البعض التجربة بأنها «أول مرة بيئتنا بتعمل هيك شي»، بينما قال آخرون إنها «شي حلو ومفرح للناس»، مؤكدين رغبتهم في متابعة طريقة العرض وكيفية تقديم المحتوى."

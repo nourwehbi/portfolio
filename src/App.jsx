@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import PortfolioSection from "./pages/PortfolioSection";
 import Story from "./pages/Story";
+import Internship from "./pages/Internship";
 import CV from "./pages/CV";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
@@ -22,6 +23,7 @@ export default function App() {
         <Route path="portfolio" element={<Portfolio />} />
         <Route path="portfolio/:section" element={<PortfolioSection />} />
         <Route path="portfolio/:section/:story" element={<Story />} />
+        <Route path="internship" element={<Internship />} />
         <Route path="cv" element={<CV />} />
         <Route path="contact" element={<Contact />} />
         <Route path="*" element={<NotFound />} />

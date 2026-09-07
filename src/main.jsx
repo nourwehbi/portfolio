@@ -1,9 +1,9 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import { HashRouter } from 'react-router-dom'
-import App from './App.jsx'
-import './styles/global.css'
-import './styles/components.css'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import { HashRouter } from "react-router-dom";
+import App from "./App.jsx";
+import "./styles/global.css";
+import "./styles/components.css";
 
 /**
  * HashRouter keeps every route inside the URL fragment (/portfolio/#/about),
@@ -14,10 +14,10 @@ import './styles/components.css'
  * `<BrowserRouter basename={import.meta.env.BASE_URL}>`. The 404.html emitted
  * by vite.config.js is what makes that work on Pages.
  */
-createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById("root")).render(
   <StrictMode>
     <HashRouter>
       <App />
     </HashRouter>
   </StrictMode>,
-)
+);

@@ -3,7 +3,7 @@
   "title": "Hello, I am Nour",
   "lead": "A journalism and digital media student with strong expertise in storytelling, content creation and multimedia communication.",
   "portrait": "/assets/profile/portrait.jpg",
-  "portraitCaption": "Nour Wehbi, Beirut",
+  "portraitCaption": "Nour Wehbi reporting at the Fourth International Conference on Digital Journalism and Innovative Media Industry",
   "body": [
     "A curious mind who captures stories through words, visuals and emotion, who believes that every voice has a story worth telling, and that we are the voice of the voiceless.",
     "My work bridges traditional reporting with modern digital platforms, focusing on delivering engaging, credible and visually compelling stories.",
@@ -38,29 +38,67 @@
     "groups": [
       {
         "name": "Editorial",
-        "items": ["Journalistic voice", "News writing", "Feature writing", "Interviewing", "Research & fact-checking"]
+        "items": [
+          "Journalistic voice",
+          "News writing",
+          "Feature writing",
+          "Interviewing",
+          "Research & fact-checking"
+        ]
       },
       {
         "name": "Visual",
-        "items": ["Photography", "Video editing", "Cinematography", "Photo essays", "Social media content"]
+        "items": [
+          "Photography",
+          "Video editing",
+          "Cinematography",
+          "Photo essays",
+          "Social media content"
+        ]
       },
       {
         "name": "Tools",
-        "items": ["Microsoft Office", "Adobe Premiere", "WordPress", "Audio reporting"]
+        "items": [
+          "Microsoft Office",
+          "Adobe Premiere",
+          "WordPress",
+          "Audio reporting"
+        ]
       }
     ]
   },
   "languages": [
-    { "name": "Arabic", "level": "Native" },
-    { "name": "English", "level": "Professional working proficiency" }
+    {
+      "name": "Arabic",
+      "level": "Native"
+    },
+    {
+      "name": "English",
+      "level": "Professional working proficiency"
+    }
   ],
-  "interests": ["Reading", "Cooking", "Swimming", "Photography", "Media innovation"],
+  "interests": [
+    "Reading",
+    "Cooking",
+    "Swimming",
+    "Photography",
+    "Media innovation"
+  ],
   "values": {
     "title": "How I work",
     "items": [
-      { "label": "Accuracy first", "text": "Every claim is traced back to a named source or a document." },
-      { "label": "People at the centre", "text": "Stories are told through the people who live them, not around them." },
-      { "label": "Built for the platform", "text": "The same reporting, shaped differently for print, screen and feed." }
+      {
+        "label": "Accuracy first",
+        "text": "Every claim is traced back to a named source or a document."
+      },
+      {
+        "label": "People at the centre",
+        "text": "Stories are told through the people who live them, not around them."
+      },
+      {
+        "label": "Built for the platform",
+        "text": "The same reporting, shaped differently for print, screen and feed."
+      }
     ]
   }
 }

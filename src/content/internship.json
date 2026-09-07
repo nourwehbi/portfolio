@@ -1,0 +1,208 @@
+{
+  "eyebrow": "Internship experience",
+  "title": "Three placements, 240 hours, one clearer direction",
+  "lead": "My professional placement gave me the opportunity to experience different sides of media and communication through three internships. Across these experiences, I worked in event coverage, journalism, content creation, social media, interviews, editing, and campaign planning. Each internship helped me apply what I learned at university in a real work environment and better understand the type of media work I enjoy.",
+  "stats": [
+    {
+      "value": "3",
+      "label": "Internships"
+    },
+    {
+      "value": "240",
+      "label": "Hours completed"
+    },
+    {
+      "value": "7",
+      "label": "Areas of practice"
+    }
+  ],
+  "placements": [
+    {
+      "id": "mcfa",
+      "index": "01",
+      "name": "Faculty of Mass Communication and Fine Arts",
+      "organisation": "Al Maaref University",
+      "hours": "60 hours",
+      "role": "Event coverage & media production",
+      "body": [
+        "Through the Faculty of Mass Communication and Fine Arts, I completed 60 hours across different media activities, including the Fourth International Conference on Digital Media, Digital Journalism and Innovative Media Industry, the Forum of Media Faculties in Lebanon, and the July War Project.",
+        "My work included event coverage, Instagram Stories, filming, interviewing speakers and participants, supporting event organization, and editing a full interview. These experiences gave me practical exposure to teamwork, communication, event production, and media coverage."
+      ],
+      "highlights": [
+        "Event coverage",
+        "Instagram Stories",
+        "Filming",
+        "Interviewing speakers",
+        "Event organization",
+        "Interview editing"
+      ],
+      "photos": [
+        {
+          "src": "/assets/internship/mcfa/photo-03.jpg",
+          "alt": "Nour Wehbi seated in front of the Fourth International Conference banner during an interview"
+        },
+        {
+          "src": "/assets/internship/mcfa/photo-01.jpg",
+          "alt": "Nour Wehbi wearing an event lanyard in front of the conference backdrop"
+        },
+        {
+          "src": "/assets/internship/mcfa/photo-04.jpg",
+          "alt": "Nour Wehbi filming with a phone on a stabiliser inside the conference hall"
+        },
+        {
+          "src": "/assets/internship/mcfa/photo-02.jpg",
+          "alt": "Branded notebooks stacked on a table at the event"
+        }
+      ],
+      "videos": [
+        {
+          "src": "/assets/internship/mcfa/video-01.mp4",
+          "poster": "/assets/internship/mcfa/video-01-poster.jpg",
+          "label": "Forum of Media Faculties in Lebanon — venue coverage",
+          "duration": "0:22"
+        },
+        {
+          "src": "/assets/internship/mcfa/video-03.mp4",
+          "poster": "/assets/internship/mcfa/video-03-poster.jpg",
+          "label": "Walking the conference floor",
+          "duration": "0:31"
+        },
+        {
+          "src": "/assets/internship/mcfa/video-02.mp4",
+          "poster": "/assets/internship/mcfa/video-02-poster.jpg",
+          "label": "Broadcast camera in the conference hall",
+          "duration": "0:04"
+        }
+      ]
+    },
+    {
+      "id": "ektisadi",
+      "index": "02",
+      "name": "Ektisadi.com",
+      "organisation": "Digital news website",
+      "hours": "60 hours",
+      "role": "Editorial intern",
+      "body": [
+        "During my 60-hour internship at Ektisadi.com, I gained practical experience in digital journalism by editing news and reports, selecting suitable images, and later publishing content directly on the website.",
+        "Throughout the internship, I became faster and more confident in handling articles while learning the importance of accuracy, attention to detail, and responsibility when publishing content for a real audience."
+      ],
+      "highlights": [
+        "Editing news & reports",
+        "Image selection",
+        "Publishing to the website",
+        "Accuracy & fact-checking"
+      ],
+      "photos": [
+        {
+          "src": "/assets/internship/ektisadi/photo-01.jpg",
+          "alt": "The Ektisadi.com logo",
+          "fit": "contain"
+        },
+        {
+          "src": "/assets/internship/ektisadi/photo-02.jpg",
+          "alt": "A laptop showing an Ektisadi article being edited before publication"
+        }
+      ],
+      "videos": [],
+      "links": [
+        {
+          "label": "Log of articles edited and published",
+          "note": "Google Sheet",
+          "href": "https://docs.google.com/spreadsheets/d/15iuFxFelSA_DraiRe-li_wEq1NYJcNfNzr8r_4WbcW0/edit?usp=sharing"
+        }
+      ]
+    },
+    {
+      "id": "co-creatives",
+      "index": "03",
+      "name": "CŌ Creatives",
+      "organisation": "Creative agency",
+      "hours": "120 hours",
+      "role": "Content & campaign intern",
+      "favourite": true,
+      "body": [
+        "My 120-hour internship at CŌ Creatives gave me the opportunity to experience the workflow of a creative agency and work on content for real brands. My tasks included research, script writing, social media content, campaign development, content calendars, profile improvements, and content planning for different clients.",
+        "I also attended a discovery meeting and a content shoot, which helped me better understand how ideas move from research and planning to production. This was the internship I enjoyed the most because of the creative environment, teamwork, and variety of work."
+      ],
+      "highlights": [
+        "Research",
+        "Script writing",
+        "Social media content",
+        "Campaign development",
+        "Content calendars",
+        "Profile improvements",
+        "Content planning"
+      ],
+      "photos": [
+        {
+          "src": "/assets/internship/co/photo-01.jpg",
+          "alt": "A laptop on a team video call, with a notebook and mug on the desk"
+        },
+        {
+          "src": "/assets/internship/co/photo-02.jpg",
+          "alt": "A content script open on a laptop beside a notebook and coffee cup"
+        },
+        {
+          "src": "/assets/internship/co/photo-04.jpg",
+          "alt": "A client's social media grid open on a laptop during content planning"
+        },
+        {
+          "src": "/assets/internship/co/photo-07.jpg",
+          "alt": "A scheduled social post open on a laptop beside a content calendar"
+        },
+        {
+          "src": "/assets/internship/co/photo-05.jpg",
+          "alt": "A brand's LinkedIn page open on a laptop while researching a client"
+        },
+        {
+          "src": "/assets/internship/co/photo-06.jpg",
+          "alt": "A laptop on a team call during a content planning session"
+        },
+        {
+          "src": "/assets/internship/co/photo-03.jpg",
+          "alt": "Working on a laptop at a desk with a coffee cup and open notebook"
+        }
+      ],
+      "videos": [
+        {
+          "src": "/assets/internship/co/video-01.mp4",
+          "poster": "/assets/internship/co/video-01-poster.jpg",
+          "label": "Discovery meeting with the team",
+          "duration": "0:21"
+        },
+        {
+          "src": "/assets/internship/co/video-03.mp4",
+          "poster": "/assets/internship/co/video-03-poster.jpg",
+          "label": "Behind the scenes at a content shoot",
+          "duration": "0:26"
+        },
+        {
+          "src": "/assets/internship/co/video-02.mp4",
+          "poster": "/assets/internship/co/video-02-poster.jpg",
+          "label": "Lighting set up before the shoot",
+          "duration": "0:06"
+        },
+        {
+          "src": "/assets/internship/co/video-04.mp4",
+          "poster": "/assets/internship/co/video-04-poster.jpg",
+          "label": "Softbox rigged on location",
+          "duration": "0:03"
+        }
+      ]
+    }
+  ],
+  "closing": {
+    "eyebrow": "What I took from it",
+    "title": "What these placements taught me",
+    "body": [
+      "These internships helped me improve my writing, research, communication, creativity, teamwork, and attention to detail. They also helped me discover that I prefer creative content work and on-site environments where I can collaborate directly with a team."
+    ],
+    "recommendationsTitle": "For future interns, I would recommend",
+    "recommendations": [
+      "Try different areas of media to discover what suits you.",
+      "Be open to feedback, and ask questions.",
+      "Develop strong research and digital marketing skills.",
+      "Treat every internship as an opportunity to gain experience, build relationships, and understand the professional direction you want to follow."
+    ]
+  }
+}

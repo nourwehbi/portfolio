@@ -61,8 +61,11 @@ Copy the YouTube video's ID — the part after `v=` in the address bar
 
 ## Adding a written piece (op-ed, report, feature)
 
-1. Put the file in `public/docs/`.
-2. Add an entry to the `text` section of `portfolio.json`:
+1. Put the Word file in `public/docs/`.
+2. Run `npm run docs:previews`. This makes a PDF copy in
+   `public/docs/previews/` so visitors can **read the piece in the browser**
+   instead of having to download it. (Needs Microsoft Word on your computer.)
+3. Add an entry to the `text` section of `portfolio.json`:
 
 ```json
 {
@@ -71,9 +74,14 @@ Copy the YouTube video's ID — the part after `v=` in the address bar
   "language": "Arabic",
   "description": "What the piece is about.",
   "file": "/docs/my-report.docx",
+  "preview": "/docs/previews/my-report.pdf",
   "format": "DOCX"
 }
 ```
+
+`preview` is what the **Preview** button opens. If you leave it out, that piece
+gets a Download button only. A piece that is already a PDF needs no `preview` —
+set `"format": "PDF"` and it previews itself.
 
 ---
 
@@ -118,6 +126,37 @@ A story looks like this:
   Arabic typeface and right-to-left layout automatically.
 - `featured: true` makes the story eligible for the home page.
 - `sources` is the list shown at the bottom under **Sources & interviews**.
+- `titleEn` / `deckEn` — optional English translation shown under an Arabic
+  headline, so an English-speaking reader still knows what the piece is about.
+
+### Linking to a story published somewhere else
+
+For a story that lives on another platform (Shorthand, a newspaper site, a
+magazine), give it an `externalUrl` **instead of** `blocks`. It then appears as
+a card that opens in a new tab, with no article page on this site:
+
+```json
+{
+  "id": "my-shorthand-story",
+  "section": "multimedia",
+  "kicker": "Multimedia story",
+  "title": "The headline",
+  "deck": "One or two sentences about it.",
+  "byline": "Nour Wehbi",
+  "date": "2026",
+  "displayDate": "2026",
+  "lang": "en",
+  "dir": "ltr",
+  "cover": "/assets/stories/my-shorthand-story/cover.jpg",
+  "featured": true,
+  "externalUrl": "https://example.com/the-story",
+  "externalLabel": "Shorthand"
+}
+```
+
+`externalLabel` is the platform name shown on the card ("Read on Shorthand").
+Save a `cover` image into the project rather than linking to the other site's
+image — that way the card keeps working even if the original link changes.
 
 ### The building blocks
 
@@ -188,6 +227,56 @@ no code change needed.
 
 ---
 
+## The Internship page
+
+`internship.json` holds the whole page. The three placements live in
+`placements`, in the order they appear:
+
+```json
+{
+  "id": "co-creatives",
+  "index": "03",
+  "name": "CŌ Creatives",
+  "organisation": "Creative agency",
+  "hours": "120 hours",
+  "role": "Content & campaign intern",
+  "favourite": true,
+  "body": ["First paragraph.", "Second paragraph."],
+  "highlights": ["Research", "Script writing"],
+  "photos": [{ "src": "/assets/internship/co/photo-01.jpg", "alt": "What it shows" }],
+  "videos": [
+    {
+      "src": "/assets/internship/co/video-01.mp4",
+      "poster": "/assets/internship/co/video-01-poster.jpg",
+      "label": "Discovery meeting with the team",
+      "duration": "0:21"
+    }
+  ],
+  "links": [{ "label": "Log of articles", "note": "Google Sheet", "href": "https://…" }]
+}
+```
+
+- `highlights` is the "What I worked on" box. `favourite: true` adds the
+  "The one I enjoyed most" badge.
+- `photos` open full size when clicked. Add `"fit": "contain"` to a photo that
+  should not be cropped — a logo or a screenshot.
+- `links` are the outward links under the text.
+- `stats` at the top of the file is the number strip; add or remove entries and
+  the row re-spaces itself.
+
+### Adding a video
+
+Videos are hosted in this project rather than on YouTube, so each needs a
+**poster** — the still shown before someone presses play. The clip itself is
+only downloaded once play is pressed, which keeps the page fast.
+
+1. Put the `.mp4` in `public/assets/internship/<placement>/`.
+2. Save a still frame beside it as `<name>-poster.jpg`. (Any frame from the
+   clip works — a screenshot is fine.)
+3. Add the entry to that placement's `videos` list, as above.
+
+Then run `npm run optimize:images` so the poster gets shrunk with the rest.
+
 ## The contact form
 
 By default the form opens the visitor's own email app with the message
@@ -207,9 +296,31 @@ That is the only change needed — the form starts sending immediately.
 
 ## Replacing the CV
 
-Replace `public/assets/profile/cv.jpg` with your new CV image, and update the
-`education`, `experience`, `skills` and `languages` lists in `cv.json` so the
-on-page version matches the file.
+The CV exists in two places, and they should always say the same thing:
+
+1. **The file** — replace `public/docs/nour-wehbi-cv.pdf` with your new PDF,
+   keeping the same filename. That is what the Preview and Download buttons
+   use, on the CV page, the home page and the contact page.
+2. **The page** — update `cv.json` so the version rendered on the site matches.
+
+`cv.json` has these lists:
+
+| Key | What it holds |
+| --- | --- |
+| `summary` | The profile paragraph under your name |
+| `details` | Phone, email, location in the sidebar |
+| `education` | Degrees — `period`, `institution`, `qualification`, `notes` |
+| `experience` | Jobs — `period`, `role`, `organisation`, `points` |
+| `projects.items` | Projects & events, same shape as `experience` |
+| `courses.items` | Courses — `name`, `issuer`, `year` |
+| `skillGroups` | Skills, grouped — `name` plus an `items` list |
+| `languages` | `name` and `level` |
+| `selectedWork.items` | Links to work elsewhere on the site |
+| `lastUpdated` | Shown at the bottom of the sidebar |
+
+To drop a whole block from the page, delete its `items` (an empty list hides
+the section). To add a job, copy an existing entry and change the values —
+`points` can hold as many bullets as you like.
 
 ## Replacing the photos of yourself
 

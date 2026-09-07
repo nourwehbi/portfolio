@@ -15,28 +15,80 @@
   "seo": {
     "title": "Nour Wehbi — Journalist & Digital Media Portfolio",
     "description": "Portfolio of Nour Wehbi, a journalism and digital media student in Beirut working across reporting, photography, video and multimedia storytelling.",
-    "keywords": ["journalist", "digital media", "photography", "multimedia", "Beirut", "Lebanon", "storytelling"],
+    "keywords": [
+      "journalist",
+      "digital media",
+      "photography",
+      "multimedia",
+      "Beirut",
+      "Lebanon",
+      "storytelling"
+    ],
     "themeColor": "#B5451B"
   },
   "nav": [
-    { "label": "Home", "path": "/" },
-    { "label": "About", "path": "/about" },
-    { "label": "Portfolio", "path": "/portfolio", "hasChildren": true },
-    { "label": "CV", "path": "/cv" },
-    { "label": "Contact", "path": "/contact" }
+    {
+      "label": "Home",
+      "path": "/"
+    },
+    {
+      "label": "About",
+      "path": "/about"
+    },
+    {
+      "label": "Portfolio",
+      "path": "/portfolio",
+      "hasChildren": true
+    },
+    {
+      "label": "Internship",
+      "path": "/internship"
+    },
+    {
+      "label": "CV",
+      "path": "/cv"
+    },
+    {
+      "label": "Contact",
+      "path": "/contact"
+    }
   ],
   "hero": {
     "eyebrow": "Journalism & Digital Media — Beirut",
     "headlinePrefix": "Telling the stories of",
-    "rotatingWords": ["the voiceless", "resilient people", "a changing Lebanon", "everyday courage"],
+    "rotatingWords": [
+      "the voiceless",
+      "resilient people",
+      "a changing Lebanon",
+      "everyday courage"
+    ],
     "intro": "A curious mind who captures stories through words, visuals and emotion — because every voice has a story worth telling.",
-    "primaryCta": { "label": "View portfolio", "path": "/portfolio" },
-    "secondaryCta": { "label": "Download CV", "href": "/assets/profile/cv.jpg", "download": true },
+    "primaryCta": {
+      "label": "View portfolio",
+      "path": "/portfolio"
+    },
+    "secondaryCta": {
+      "label": "Download CV",
+      "href": "/docs/nour-wehbi-cv.pdf",
+      "download": true
+    },
     "stats": [
-      { "value": "20+", "label": "Published pieces" },
-      { "value": "5", "label": "Video productions" },
-      { "value": "2", "label": "Languages" },
-      { "value": "2023", "label": "Reporting since" }
+      {
+        "value": "20+",
+        "label": "Published pieces"
+      },
+      {
+        "value": "5",
+        "label": "Video productions"
+      },
+      {
+        "value": "2",
+        "label": "Languages"
+      },
+      {
+        "value": "2023",
+        "label": "Reporting since"
+      }
     ]
   },
   "homeSections": {
@@ -44,7 +96,10 @@
       "eyebrow": "About",
       "title": "Reporting that bridges traditional craft and digital platforms",
       "body": "I am a journalism and digital media student at Al-Maaref University with hands-on experience in news writing, photography, video features and social media content. My work focuses on delivering engaging, credible and visually compelling stories.",
-      "cta": { "label": "More about me", "path": "/about" }
+      "cta": {
+        "label": "More about me",
+        "path": "/about"
+      }
     },
     "workTeaser": {
       "eyebrow": "Selected work",
@@ -53,19 +108,34 @@
     },
     "storyTeaser": {
       "eyebrow": "Featured story",
-      "cta": { "label": "Read the story", "path": "/portfolio/multimedia/souk-ardi" }
+      "title": "The most recent work"
     },
     "contactTeaser": {
       "eyebrow": "Get in touch",
       "title": "Have a story to tell, or a role to fill?",
       "body": "I am currently looking for internships, freelance assignments and entry-level opportunities in media and communications.",
-      "cta": { "label": "Contact me", "path": "/contact" }
+      "cta": {
+        "label": "Contact me",
+        "path": "/contact"
+      }
     }
   },
   "socials": [
-    { "label": "Email", "href": "mailto:nur.a.wehbi@gmail.com", "icon": "mail" },
-    { "label": "WhatsApp", "href": "https://wa.me/96171813891", "icon": "phone" },
-    { "label": "WordPress", "href": "https://nourwehbi.wordpress.com/", "icon": "globe" }
+    {
+      "label": "Email",
+      "href": "mailto:nur.a.wehbi@gmail.com",
+      "icon": "mail"
+    },
+    {
+      "label": "WhatsApp",
+      "href": "https://wa.me/96171813891",
+      "icon": "phone"
+    },
+    {
+      "label": "WordPress",
+      "href": "https://nourwehbi.wordpress.com/",
+      "icon": "globe"
+    }
   ],
   "footer": {
     "note": "Built as a personal portfolio. All photography and reporting by Nour Wehbi unless credited otherwise.",
