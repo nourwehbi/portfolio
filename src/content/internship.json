@@ -188,6 +188,13 @@
           "label": "Softbox rigged on location",
           "duration": "0:03"
         }
+      ],
+      "links": [
+        {
+          "label": "Log of content and campaign work",
+          "note": "Google Doc",
+          "href": "https://docs.google.com/document/d/1d8JeipAg2A1o2RLmu5pz_ufjqxF8nE-pLxGYXYVakLU/edit?usp=sharing"
+        }
       ]
     }
   ],
